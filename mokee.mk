@@ -1,8 +1,8 @@
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# Inherit some common MK stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/mk/config/gsm.mk)
 
-$(call inherit-product, device/huawei/viva/device_viva.mk)
+$(call inherit-product, device/huawei/viva/full_viva.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := viva
@@ -20,7 +20,7 @@ TARGET_SCREEN_WIDTH := 540
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := viva
-PRODUCT_NAME := cm_viva
+PRODUCT_NAME := mk_viva
 PRODUCT_RELEASE_NAME := U9200
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := U9200
