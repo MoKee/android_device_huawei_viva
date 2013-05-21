@@ -1,0 +1,7 @@
+[
+ {
+   "repository": "MoKee/android_vendor_huawei_viva",
+   "target_path": "vendor/huawei/viva",
+   "branch": "jb-mr1_mkt"
+ }
+]
